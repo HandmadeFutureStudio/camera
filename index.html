@@ -192,18 +192,6 @@
   .more-sub{ display:block; font:15px/1.4 'Source Serif 4', serif; color:#444; }
   .more:active{ transform:scale(.99); }
 
-  /* Meet the moving parts — tap-to-open list */
-  .parts{ padding:30px 22px 26px; background:var(--paper); }
-  .parts .label{ margin:0 0 4px; font-size:13px; }
-  .parts-hint{ margin:0 0 14px; font:italic 15px 'Source Serif 4', serif; color:#555; }
-  .part-list{ border-top:1.5px solid var(--line); }
-  .part{ border-bottom:1.5px solid var(--line); }
-  .part summary{ list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between;
-                 padding:14px 2px; font:700 21px/1.2 var(--display); letter-spacing:-.01em; color:var(--navy); }
-  .part summary::-webkit-details-marker{ display:none; }
-  .part summary::after{ content:"+"; font:400 26px/1 var(--display); color:var(--blue); transition:transform .2s; }
-  .part[open] summary::after{ transform:rotate(45deg); }
-  .part p{ margin:0 2px 16px; font:16.5px/1.45 'Source Serif 4', serif; color:#2B241B; }
 </style>
 </head>
 <body>
@@ -234,50 +222,6 @@
       <div class="inf">∞</div>
       <div class="not"><h3><s>Auto-exposure</s></h3>
         <p>Read the light and decide how much to let in.</p></div>
-    </div>
-  </section>
-
-  <!-- ============ MEET THE MOVING PARTS (from the full guide) ============ -->
-  <section class="parts">
-    <div class="label">Meet the moving parts</div>
-    <p class="parts-hint">Tap a part to see what it does.</p>
-    <div class="part-list">
-      <details class="part">
-        <summary>The bed release</summary>
-        <p>The button or catch that pops the whole front of the camera open, springing the lens forward on its rails until it locks into shooting position — like releasing the catch on a pop-up book.</p>
-      </details>
-      <details class="part">
-        <summary>The bellows</summary>
-        <p>The pleated material connecting lens to body — folds flat for the case, just like the instrument, and extends out into playing position when you're ready to shoot. Not airtight, just a light-blocking flexible tunnel.</p>
-      </details>
-      <details class="part">
-        <summary>The viewfinder</summary>
-        <p>The small window you actually look through to compose a shot. It's a separate peephole from the lens itself, with no connection to focus at all — what you see through it never changes, no matter where the focus ring is set.</p>
-      </details>
-      <details class="part">
-        <summary>The red window</summary>
-        <p>The small round window on the back, often tinted red or amber. This camera doesn't count frames automatically — the film's paper backing has numbers printed on it, and this window is a peephole for reading them as you wind, like checking an odometer for mileage through a tiny opening. The tint isn't decoration either: it filters the light passing through so it doesn't fog the film sitting right behind it. Worth keeping its little sliding metal cover closed except for the moment you're winding the film.</p>
-      </details>
-      <details class="part">
-        <summary>The cocking lever</summary>
-        <p>The part you pull back before every shot, arming the spring. Skip this and pressing the shutter does nothing at all — the button will go down, but the shutter won't open and close.</p>
-      </details>
-      <details class="part">
-        <summary>The shutter button</summary>
-        <p>The button on top you actually press to fire. It doesn't do the firing itself — it sends your press down through a small internal pin to trip the real mechanism near the lens.</p>
-      </details>
-      <details class="part">
-        <summary>The focus ring</summary>
-        <p>The small center ring. No live preview confirms you're right — you estimate distance and trust a printed scale. Less "focusing," more "aiming."</p>
-      </details>
-      <details class="part">
-        <summary>The aperture ring</summary>
-        <p>Works like a pupil. Wide open in dim light, squeezed small in bright light.</p>
-      </details>
-      <details class="part">
-        <summary>The shutter speed ring</summary>
-        <p>Controls how long the shutter stays open. A fast speed freezes motion. A slow speed lets in more light but shows every wobble in your hands.</p>
-      </details>
     </div>
   </section>
 
@@ -351,7 +295,7 @@
 
   <!-- ============ FOOTER ============ -->
   <footer class="foot">
-    <div class="credit" style="margin-top:0"><span>Zeiss Ikon folding camera · c. 1930</span><span>Lisa Niedermeyer · Handmade Future Studio</span></div>
+    <div class="credit" style="margin-top:0"><span>Zeiss Ikon folding camera · c. 1930</span><span>Lisa Niedermeyer · Handmade Future Studio</span><span>Learning design collaborator · Ash Perry</span></div>
   </footer>
 
 </div>
